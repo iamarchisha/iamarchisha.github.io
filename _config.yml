@@ -17,7 +17,7 @@ baseurl: ""
 title: Archisha Chandel
 
 # Short description of your site
-description: One-stop source to my awesomeness!
+# description: One-stop source to my awesomeness!
 
 # --- Navigation bar options --- #
 
@@ -46,12 +46,12 @@ avatar: "/img/avatar.jpg"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-navbar-col: "lightseagreen"
-# navbar-img: "/img/bgimage.png"
-footer-col: "lightseagreen"
-# footer-img: "/img/bgimage.png"
-page-col: "#FAF9F6"
-# page-img: "/img/bgimage.png"
+# navbar-col: "grey"
+navbar-img: "/img/bgimage_h.png"
+# footer-col: "grey"
+footer-img: "/img/bgimage_h.png"
+# page-col: "#FAF9F6"
+page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
