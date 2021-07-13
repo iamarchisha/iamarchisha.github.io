@@ -4,5 +4,23 @@ title: About me
 subtitle:
 ---
 
-I recently started a PhD in machine/deep learning at the [Institut of Bioinformatics](http://www.bioinf.jku.at/) of the Johannes Kepler University in Linz, Austria in the team of Sepp Hochreiter.
-Previously I worked at the Institute of Water Management, Hydrology and Hydraulic Engineering at the BOKU University in Vienna, as a research assistant. I did my Master in environmental engineering ant the topic of my Master thesis was the development of a software as part of a semi-automatic monitoring system for fish migration in fish passes. The thesis can be found [here](http://permalink.obvsg.at/bok/AC13359496) (in German only). In my time as research assistant at the BOKU university I mostly worked on machine learning applications in the field of hydrology and environmental sciences.
+Curiosity driven individual striving to find ingenious solutions to real-world problems. Actively contributing to the field of machine learning and artificial intelligence. Constantly associating myself with rigorous study of AI research papers and keeping myself updated with new technical advancements. My experience so far highlights the following :
+
+- Inquisitive spirit
+- My left side brain delightfully complements my right side brain
+- Ardent about developing innovative approaches to solve intricate problems
+
+**Professional Interests**
+- Object Detection Applications
+- Name Entity Recognition Applications
+- Data Analytics for Media Industry
+- Time Series Analytics for Finance Industry
+- Signal Processing for Pattern Recognition
+
+**Personal Interests**
+- AI Community Development
+- Support for Women in Tech
+- Avid reading
+- 3D animation
+- Fine art
+- Public Speaking
