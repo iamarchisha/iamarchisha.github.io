@@ -10,6 +10,8 @@ Curiosity driven individual striving to find ingenious solutions to real-world p
 - My left side brain delightfully complements my right side brain
 - Ardent about developing innovative approaches to solve intricate problems
 
+_To know more, check out [my professional experiences and backgroud](ArchishaChandel_CV.pdf)._
+
 **Professional Interests**
 - Object Detection Applications
 - Name Entity Recognition Applications
