@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://kratzert.github.io"
-baseurl: ""
+url: "https://iamarchisha.github.io"
+baseurl: "/home"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,17 +14,17 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Flair of Machine Learning
+title: Archisha Chandel
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: One-stop source to my awesomeness!
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Open Learning: "openlearning"
+  Blogs: "blogs"
   Projects: "projects"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -34,7 +34,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
+avatar: "/img/ME.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -57,25 +57,24 @@ avatar: "/img/avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Frederik Kratzert
-  email: "f.kratzert@gmail.com"
-  github: kratzert
-  twitter: fkratzert
-  linkedin: frederik-kratzert-226a33148
-  xing: yourname
-  stackoverflow: yourlink
+  name: Archisha Chandel
+  email: "chandelarchisha@gmail.com"
+  github: iamarchisha
+  twitter: iamXXVI
+  linkedin: iamarchisha
+  stackoverflow: https://stackoverflow.com/users/12249400/iamarchisha?tab=profile
 
 
 # Select which links to show in the footer
 footer-links-active:
   rss: true
   facebook: false
-  email: true
+  email: false
   twitter: true
   github: true
   linkedin: true
   xing: false
-  stackoverflow: false
+  stackoverflow: true
 
 
 # Select which share links to show in posts
@@ -87,14 +86,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "kratzert.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "kratzert.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "kratzertblog"
+disqus: "archishablog"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-96660715-1"
+google_analytics: "202055410"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -113,7 +112,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/Berlin"
+timezone: "Asia/India"
 markdown: kramdown
 highlighter: rouge
 #permalink: /:year/:month/:day/:title/.html
