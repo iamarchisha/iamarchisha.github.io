@@ -25,7 +25,6 @@ description: My Blogs
 navbar-links:
   About Me: "aboutme"
   Open Learning: "openlearning"
-#   Blogs: "blogs"
   Projects: "projects"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -70,7 +69,7 @@ author:
 footer-links-active:
   rss: false
   facebook: false
-  email: false
+  email: true
   twitter: true
   github: true
   linkedin: true
@@ -91,7 +90,7 @@ url-pretty: "iamarchisha.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "iamarchisha"
+disqus: "https-iamarchisha-github-io"
 
 # Fill in your Google Analytics ID to track your website using GA
 # google_analytics: "UA-96660715-1"
