@@ -14,18 +14,23 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
+<<<<<<< HEAD
 title: Bytes of Learning
+=======
+title: Archisha Chandel
+>>>>>>> master
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: My Blogs
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Open Learning: "openlearning"
-  Projects: "projects"
+#   Resume: "resume"
+#   Blogs: "blogs"
+#   Projects: "projects"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -45,12 +50,12 @@ avatar: "/img/avatar.png"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-# navbar-col: "orange"
-# navbar-img: "/img/bgimage.png"
-# footer-col: "blue"
-# footer-img: "/img/bgimage.png"
-# page-col: "#FF0000"
-# page-img: "/img/bgimage.png"
+navbar-col: "2f7d93"
+# navbar-img: "/img/bgimage_h.jpg"
+footer-col: "2f7d93"
+# footer-img: "/img/bgimage_h.jpg"
+page-col: "e3b5a8"
+# page-img: "/img/bgimage.jpg"
 
 # --- Footer options --- #
 
@@ -63,14 +68,13 @@ author:
   twitter: iamXXVI
   linkedin: iamarchisha
   xing: yourname
-  stackoverflow: iamarchisha
-
+  stackoverflow: 12249400/iamarchisha
 
 # Select which links to show in the footer
 footer-links-active:
   rss: false
   facebook: false
-  email: true
+  email: false
   twitter: true
   github: true
   linkedin: true
@@ -104,7 +108,7 @@ disqus: "iamarchisha"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 80
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
@@ -113,7 +117,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "India/Kolkata"
+timezone: "Asia/India"
 markdown: kramdown
 highlighter: rouge
 #permalink: /:year/:month/:day/:title/.html
