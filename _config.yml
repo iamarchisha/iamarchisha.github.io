@@ -24,9 +24,9 @@ description: My Blogs
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-#   Resume: "resume"
+  Open Learning: "openlearning"
 #   Blogs: "blogs"
-#   Projects: "projects"
+  Projects: "projects"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
