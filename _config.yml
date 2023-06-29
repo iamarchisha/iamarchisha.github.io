@@ -14,7 +14,11 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
+<<<<<<< HEAD
+title: Bytes of Learning
+=======
 title: Archisha Chandel
+>>>>>>> master
 
 # Short description of your site
 description: My Blogs
@@ -35,7 +39,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
+avatar: "/img/avatar.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -59,12 +63,12 @@ page-col: "e3b5a8"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Archisha Chandel
-  email: "chandelarchisha@gmail.com"
+  email: "iamarchishachandel@gmail.com"
   github: iamarchisha
   twitter: iamXXVI
   linkedin: iamarchisha
+  xing: yourname
   stackoverflow: 12249400/iamarchisha
-
 
 # Select which links to show in the footer
 footer-links-active:
@@ -87,14 +91,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "kratzert.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "iamarchisha.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: "archishablog"
+disqus: "iamarchisha"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "202055410"
+# google_analytics: "UA-96660715-1"
 
 # Google Tag Manager ID
 #gtm: ""
