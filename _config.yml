@@ -14,11 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-<<<<<<< HEAD
 title: Bytes of Learning
-=======
-title: Archisha Chandel
->>>>>>> master
 
 # Short description of your site
 description: My Blogs
