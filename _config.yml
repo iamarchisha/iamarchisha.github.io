@@ -64,6 +64,7 @@ author:
   linkedin: iamarchisha
   xing: yourname
   stackoverflow: 12249400/iamarchisha
+  hackerrank: chandelarchisha
 
 # Select which links to show in the footer
 footer-links-active:
@@ -75,7 +76,7 @@ footer-links-active:
   linkedin: true
   xing: false
   stackoverflow: true
-
+  hackerrank: true
 
 # Select which share links to show in posts
 share-links-active:
