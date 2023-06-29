@@ -145,3 +145,77 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled,.btn-yahoo[disabled],fieldset[disabled] .btn-yahoo,.btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled.focus,.btn-yahoo[disabled].focus,fieldset[disabled] .btn-yahoo.focus,.btn-yahoo.disabled:active,.btn-yahoo[disabled]:active,fieldset[disabled] .btn-yahoo:active,.btn-yahoo.disabled.active,.btn-yahoo[disabled].active,fieldset[disabled] .btn-yahoo.active{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+.btn-hackerrank {
+    color: #fff;
+    background-color: #2EC866;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-hackerrank:focus,
+  .btn-hackerrank.focus {
+    color: #fff;
+    background-color: #248354;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-hackerrank:hover {
+    color: #fff;
+    background-color: #248354;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-hackerrank:active,
+  .btn-hackerrank.active,
+  .open > .dropdown-toggle.btn-hackerrank {
+    color: #fff;
+    background-color: #248354;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-hackerrank:active:hover,
+  .btn-hackerrank.active:hover,
+  .open > .dropdown-toggle.btn-hackerrank:hover,
+  .btn-hackerrank:active:focus,
+  .btn-hackerrank.active:focus,
+  .open > .dropdown-toggle.btn-hackerrank:focus,
+  .btn-hackerrank:active.focus,
+  .btn-hackerrank.active.focus,
+  .open > .dropdown-toggle.btn-hackerrank.focus {
+    color: #fff;
+    background-color: #1B634E;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-hackerrank:active,
+  .btn-hackerrank.active,
+  .open > .dropdown-toggle.btn-hackerrank {
+    background-image: none;
+  }
+  
+  .btn-hackerrank.disabled,
+  .btn-hackerrank[disabled],
+  fieldset[disabled] .btn-hackerrank,
+  .btn-hackerrank.disabled:hover,
+  .btn-hackerrank[disabled]:hover,
+  fieldset[disabled] .btn-hackerrank:hover,
+  .btn-hackerrank.disabled:focus,
+  .btn-hackerrank[disabled]:focus,
+  fieldset[disabled] .btn-hackerrank:focus,
+  .btn-hackerrank.disabled.focus,
+  .btn-hackerrank[disabled].focus,
+  fieldset[disabled] .btn-hackerrank.focus,
+  .btn-hackerrank.disabled:active,
+  .btn-hackerrank[disabled]:active,
+  fieldset[disabled] .btn-hackerrank:active,
+  .btn-hackerrank.disabled.active,
+  .btn-hackerrank[disabled].active,
+  fieldset[disabled] .btn-hackerrank.active {
+    background-color: #2EC866;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-hackerrank .badge {
+    color: #2EC866;
+    background-color: #fff;
+  }
+  
