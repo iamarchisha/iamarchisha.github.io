@@ -15,4 +15,3 @@ Fueling my fire is the artistry of designing flawless data science solution pipe
 Beyond the realms of data, you'll find me immersed in the splendor of nature. Whether I'm diving into azure depths or ascending majestic peaks during thrilling hiking escapades, I draw inspiration from the boundless wonders that surround us.
 
 Envisioning a future amongst the elite ranks of Google Brain as a Researcher, I yearn to collaborate with brilliant minds and redefine the frontiers of Computer Vision.
-
