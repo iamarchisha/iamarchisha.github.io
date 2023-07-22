@@ -1,7 +1,7 @@
 ---
 layout: "post"
-title: "Automation Anxiety: Unraveling the Past, Dancing with the Present, and Embracing the Future"
-date: "2022-07-14 09:54"
+title: "Automation Anxiety"
+date: "2023-07-22 09:54"
 excerpt: "An explanation of perceptron and a very simple way to implement it from scratch using Python."
 comments: true
 ---
