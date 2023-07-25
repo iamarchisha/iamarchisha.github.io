@@ -2,7 +2,7 @@
 layout: "post"
 title: "Automation Anxiety"
 date: "2023-07-22 09:54"
-excerpt: "An explanation of perceptron and a very simple way to implement it from scratch using Python."
+excerpt: "A fascinating narrative that challenges conventional beliefs and paints a picture of hope amidst uncertainty."
 comments: true
 ---
 Automation anxiety, a phenomenon that has plagued humanity for centuries, stems from the fear that technology and machines will replace human workers, leaving them unemployed and economically vulnerable. As we delve into the pages of history, we witness the haunting tales of the Industrial Revolution, where the rise of machines sparked protests and fueled discontent among workers. However, as we explore the present and peer into the future, a fascinating narrative emerges—one that challenges conventional beliefs and paints a picture of hope amidst uncertainty. 
