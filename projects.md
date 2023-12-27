@@ -1,14 +1,14 @@
 ---
 layout: "post"
 title: "Projects"
-date: "2023-06-29 14:16"
+date: "2023-12-27 14:16"
 excerpt: "An overview of my awesomeness."
 ---
 
 ## Work Experience
 
-- **Data Scientist - Paamsteps (2022 - Present)**  
-  *Developed insightful communication strategies using explainable AI, achieving a 19% increase in converted tenancy rate with customer behavior analysis using SHAP, semantic analysis, NLP techniques.*
+- **Data Science Consultant - AVPL International (2023 - Present)**  
+  *Led a team of 5 professionals to develop soil fertility identification using airborne hyperspectral images, proposed a hybrid machine learning model that improved accuracy by 21.09% and applied Agile methodology for project management and documentation.*
 
 - **Data Scientist - Fractal Analytics (2021 - 2022)**  
   *Implemented GANs for synthetic data generation, overcoming data scarcity & complexity while maintaining inter-data and intra-feature relationship with a performance gap of only 6%. Conducted EDA, enhanced data processing pipeline, and ensured model stability.*
@@ -21,19 +21,20 @@ excerpt: "An overview of my awesomeness."
 
 ## Volunteer Experience
 
-- **Machine Learning Mentor - Upwork (2021)** 
-  *Mentored individuals for machine learning courses, guiding them in implementing projects such as multilayer perceptron construction and time-series weather forecasting using LSTM.*
-
-- **Open-Source Contributor - Mozilla (2020)**
-  *Contributed to Project PRESC, conducting research, experimentation, and development of machine learning classification models evaluation toolkit.*
-
-## Positions of Responsibility
+- **AI - Machine Learning Trainer - AVPL International (2022 - 2023)** 
+  *Acquired Trainer certification from a government flagship program - NSDC, instructing 80-student cohort and imparted knowledge of machine learning, teamwork, work management.*
 
 - **Club President - Toastmasters International (2022)**  
-  *Led the club to achieve the Distinguished title, won International Speech Contest, and completed all 5 levels of Presentation Mastery pathway.*
+  *Led the club to achieve the Distinguished title, won International Speech Contest at regional levels, and completed all 5 levels of Presentation Mastery pathway.*
+
+- **Machine Learning Mentor - Upwork (2021)** 
+  *Mentored individuals for machine learning courses, guiding them in implementing projects such as multilayer perceptron construction and time-series forecasting using LSTM.*
 
 - **AI Mentor - GirlScript Foundation (2020)**  
   *Mentored students on the machine learning project "Credit Card Fraud Detection" and delivered lectures on deep learning and neural networks algorithms.*
+
+  - **Open-Source Contributor - Mozilla (2020)**
+  *Contributed to Project PRESC, conducting research, experimentation, and development of machine learning classification models evaluation toolkit.*
 
 ## Other Projects
 
@@ -67,7 +68,7 @@ excerpt: "An overview of my awesomeness."
 
 ## Academia
 
-- B.E. in Computer Engineering (GPA: 8.0/10.0)  
+- B.E. in Computer Engineering (GPA: 7.96/10.0)  
   University of Mumbai—Bharati Vidyapeeth College of Engineering  
   *Focused on Data Structures & Algorithms, AI/ML Applications, and Engineering Mathematics.*
 
