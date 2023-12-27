@@ -33,7 +33,7 @@ excerpt: "An overview of my awesomeness."
 - **AI Mentor - GirlScript Foundation (2020)**  
   *Mentored students on the machine learning project "Credit Card Fraud Detection" and delivered lectures on deep learning and neural networks algorithms.*
 
-  - **Open-Source Contributor - Mozilla (2020)**
+- **Open-Source Contributor - Mozilla (2020)**
   *Contributed to Project PRESC, conducting research, experimentation, and development of machine learning classification models evaluation toolkit.*
 
 ## Other Projects
