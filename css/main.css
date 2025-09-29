@@ -650,6 +650,17 @@ td.gutter { padding-top: 3px; }
   font-weight: 600; /* slightly lighter for magazine feel */
   letter-spacing: -0.02em;
 }
+/* Ensure footer icons are warm white on red (light mode) */
+footer .fa, footer .fab, footer .fas, footer .far,
+footer svg, footer svg path, footer i {
+  color: #F5F5F0 !important;
+  fill:  #F5F5F0 !important;
+}
+footer a:hover .fa,
+footer a:hover svg path {
+  color: #FFFFFF !important;
+  fill:  #FFFFFF !important;
+}
 
 /* ===========================
    Dark Mode (prefers-color-scheme)
@@ -808,3 +819,4 @@ article a:hover, article a:focus {
   color: #FFFFFF !important;
 }
 }
+
