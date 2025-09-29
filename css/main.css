@@ -650,6 +650,7 @@ td.gutter { padding-top: 3px; }
   font-weight: 600; /* slightly lighter for magazine feel */
   letter-spacing: -0.02em;
 }
+
 /* Ensure footer icons are warm white on red (light mode) */
 footer .fa, footer .fab, footer .fas, footer .far,
 footer svg, footer svg path, footer i {
@@ -662,14 +663,9 @@ footer a:hover svg path {
   fill:  #FFFFFF !important;
 }
 
-/* ===========================
-   Dark Mode (prefers-color-scheme)
-   Aligned to Red/White/Black
-=========================== */
-
-/* --- Dark Mode Override (Refined Readability) --- */
-
+/* --- Dark Mode Override (Refined Readability + Icon Fixes) --- */
 @media (prefers-color-scheme: dark) {
+  /* Base */
   body {
     background: #0B0B0B;       /* deep black background */
     color: #EDEDED;            /* soft white for body text */
@@ -680,34 +676,75 @@ footer a:hover svg path {
     color: #FFFFFF;            /* bright white for contrast */
   }
 
-  /* Navbar & footer */
+  /* Navbar & footer (brand red) */
   .navbar-custom,
   footer {
-    background: #D62828;       /* brand red */
+    background: #D62828;
     border-color: #A61E1E;
   }
-
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a,
   footer a {
-    color: #FFFFFF;            /* bright white */
+    color: #FFFFFF;
   }
-
   .navbar-custom .nav li a:hover,
   .navbar-custom .navbar-brand:hover {
-    color: #F5F5F0;            /* warm white on hover */
+    color: #F5F5F0;            /* warm white hover */
   }
 
-  /* Footer icons */
-  footer .fa, footer .fab, footer .fas, footer .far,
-  footer svg, footer svg path, footer i {
+  /* --- Footer Icon Visibility: strong overrides --- */
+  /* Make links white (source of currentColor) */
+  footer a,
+  footer a:visited,
+  footer a:active {
     color: #FFFFFF !important;
-    fill:  #FFFFFF !important;
   }
-  footer a:hover .fa,
+  /* Font Awesome <i> elements */
+  footer a i,
+  footer .fa, footer .fas, footer .far, footer .fab, footer .fa-stack {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+  /* Inline SVGs follow currentColor */
+  footer a svg {
+    width: 1em; height: 1em;
+    fill: currentColor !important;
+    stroke: currentColor !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+  /* Override hardcoded fills inside SVGs */
+  footer a svg path,
+  footer a svg g,
+  footer a svg circle,
+  footer a svg rect,
+  footer a svg polygon {
+    fill: currentColor !important;
+    stroke: currentColor !important;
+  }
+  /* Stacked FA icons */
+  footer .fa-stack .fa,
+  footer .fa-stack-1x,
+  footer .fa-stack-2x {
+    color: #FFFFFF !important;
+  }
+  /* Image icons as <img> — invert to white */
+  footer img.icon,
+  footer a img[src$=".svg"],
+  footer a img[src$=".png"],
+  footer a img[src$=".jpg"] {
+    filter: brightness(0) invert(1) !important;
+    opacity: 1 !important;
+  }
+  /* Hover: warm white */
+  footer a:hover,
+  footer a:hover i,
+  footer a:hover svg,
   footer a:hover svg path {
     color: #F5F5F0 !important;
     fill:  #F5F5F0 !important;
+    stroke:#F5F5F0 !important;
   }
 
   /* Blog post titles */
@@ -723,7 +760,7 @@ footer a:hover svg path {
   .post-meta,
   .caption,
   blockquote {
-    color: #BFBFBF;            /* softer grey for secondary */
+    color: #BFBFBF;
   }
   blockquote { border-left-color: #6C757D; }
 
@@ -765,58 +802,45 @@ footer a:hover svg path {
     color: #FFFFFF;
     text-shadow: 1px 1px 3px rgba(0,0,0,.8);
   }
-   /* --- Dark Mode: Article Readability Fix --- */
-/* Force main copy to a readable soft-white and ensure links/inline elements inherit properly */
-.post, .post-content, .post-body,
-.post-entry, .post-preview .post-entry,
-.post-preview, article, .post-entry-container {
-  color: #EDEDED !important;
-  background-color: transparent;
-}
 
-/* Paragraphs & list text inside posts */
-.post p, .post-content p, .post-entry p, article p,
-.post li, .post-content li, .post-entry li, article li,
-.post dt, .post dd, .post-content dt, .post-content dd {
-  color: #EDEDED !important;
+  /* --- Article Readability Fix --- */
+  .post, .post-content, .post-body,
+  .post-entry, .post-preview .post-entry,
+  .post-preview, article, .post-entry-container {
+    color: #EDEDED !important;
+    background-color: transparent;
+  }
+  .post p, .post-content p, .post-entry p, article p,
+  .post li, .post-content li, .post-entry li, article li,
+  .post dt, .post dd, .post-content dt, .post-content dd {
+    color: #EDEDED !important;
+  }
+  .post h1, .post h2, .post h3, .post h4, .post h5, .post h6,
+  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    color: #FFFFFF !important;
+  }
+  .post a, .post-content a, .post-entry a, article a {
+    color: #D62828 !important;
+  }
+  .post a:hover, .post a:focus,
+  .post-content a:hover, .post-content a:focus,
+  .post-entry a:hover, .post-entry a:focus,
+  article a:hover, article a:focus {
+    color: #FF4A4A !important;
+    text-decoration: underline;
+  }
+  .post blockquote, .post-content blockquote, .post-entry blockquote {
+    color: #BFBFBF !important;
+    border-left-color: #6C757D !important;
+  }
+  .post pre, .post code,
+  .post-content pre, .post-content code,
+  .post-entry pre, .post-entry code {
+    color: #EDEDED !important;
+  }
+  .post-preview .post-title,
+  .post-heading .post-title,
+  .post .post-title {
+    color: #FFFFFF !important;
+  }
 }
-
-/* Headings inside article body (keep them bright) */
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6,
-.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-  color: #FFFFFF !important;
-}
-
-/* Links inside article body: brand red with lighter hover */
-.post a, .post-content a, .post-entry a, article a {
-  color: #D62828 !important;
-}
-.post a:hover, .post a:focus,
-.post-content a:hover, .post-content a:focus,
-.post-entry a:hover, .post-entry a:focus,
-article a:hover, article a:focus {
-  color: #FF4A4A !important;
-  text-decoration: underline;
-}
-
-/* Blockquotes and meta text inside posts */
-.post blockquote, .post-content blockquote, .post-entry blockquote {
-  color: #BFBFBF !important;
-  border-left-color: #6C757D !important;
-}
-
-/* Code blocks inside posts */
-.post pre, .post code,
-.post-content pre, .post-content code,
-.post-entry pre, .post-entry code {
-  color: #EDEDED !important;
-}
-
-/* Post titles in lists and single view */
-.post-preview .post-title,
-.post-heading .post-title,
-.post .post-title {
-  color: #FFFFFF !important;
-}
-}
-
