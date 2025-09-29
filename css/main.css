@@ -656,64 +656,83 @@ td.gutter { padding-top: 3px; }
    Aligned to Red/White/Black
 =========================== */
 
+/* --- Dark Mode Override (Refined Readability) --- */
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #0B0B0B;       /* deep black background */
-    color: #F5F5F0;            /* warm white text */
+    color: #EDEDED;            /* soft white for body text */
   }
 
-  h1,h2,h3,h4,h5,h6 { color: #FFFFFF; }
+  /* Headings */
+  h1,h2,h3,h4,h5,h6 {
+    color: #FFFFFF;            /* bright white for contrast */
+  }
 
-  /* Navbar & footer in brand red */
+  /* Navbar & footer */
   .navbar-custom,
   footer {
-    background: #D62828;
+    background: #D62828;       /* brand red */
     border-color: #A61E1E;
   }
 
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a,
   footer a {
-    color: #F5F5F0;
+    color: #FFFFFF;            /* bright white */
   }
 
   .navbar-custom .nav li a:hover,
   .navbar-custom .navbar-brand:hover {
-    color: #FFFFFF;
+    color: #F5F5F0;            /* warm white on hover */
+  }
+
+  /* Footer icons */
+  footer .fa, footer .fab, footer .fas, footer .far,
+  footer svg, footer svg path, footer i {
+    color: #FFFFFF !important;
+    fill:  #FFFFFF !important;
+  }
+  footer a:hover .fa,
+  footer a:hover svg path {
+    color: #F5F5F0 !important;
+    fill:  #F5F5F0 !important;
   }
 
   /* Blog post titles */
   .post-preview .post-title {
-    color: #FFFFFF !important;  /* ensure high contrast */
+    color: #FFFFFF !important;
   }
 
   /* Links */
   a { color: #D62828; }
   a:hover, a:focus { color: #FF4A4A; }
 
-  /* Meta / subtle text */
+  /* Secondary/meta text */
   .post-meta,
   .caption,
-  blockquote { color: #CFCFCF; }
+  blockquote {
+    color: #BFBFBF;            /* softer grey for secondary */
+  }
   blockquote { border-left-color: #6C757D; }
 
   /* Tables */
   table tr { background-color: #1A1A1A; border-top-color: #333; }
   table tr:nth-child(2n) { background-color: #232323; }
-  table tr th, table tr td { border-color: #333; color: #F5F5F0; }
+  table tr th, table tr td { border-color: #333; color: #EDEDED; }
 
   /* Code blocks */
   pre.highlight, .highlight > pre, td.code pre {
     background: #1A1A1A;
     background-image: none;
     border-left-color: #D62828;
-    color: #F5F5F0;
+    color: #EDEDED;
   }
 
   /* Pager */
   .pager li a {
     background: #0F0F0F;
-    color: #F5F5F0;
+    color: #EDEDED;
     border-color: #2A2A2A;
   }
   .pager li a:hover, .pager li a:focus {
@@ -726,7 +745,7 @@ td.gutter { padding-top: 3px; }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     background: #1A1D22;
     border-color: #2A2F35;
-    color: #F5F5F0;
+    color: #EDEDED;
   }
 
   /* Intro header text on images */
