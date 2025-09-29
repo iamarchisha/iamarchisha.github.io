@@ -551,37 +551,59 @@ td.gutter { padding-top: 3px; }
   letter-spacing: -0.02em;
 }
 
-/* --- Dark Mode Override --- */
+/* --- Dark Mode Override (Brand Red #D62828 / White / Black) --- */
 @media (prefers-color-scheme: dark) {
   body {
-    background: #121212;
-    color: #FAF3E0; /* warm off-white for readability */
+    background: #0B0B0B;       /* deep black background */
+    color: #FAF3E0;           /* warm off-white text */
   }
-  h1,h2,h3,h4,h5,h6 { color: #FFFFFF; }
+
+  h1,h2,h3,h4,h5,h6 {
+    color: #FFFFFF;           /* pure white for high contrast titles */
+  }
+
+  /* Navbar & footer in brand red */
   .navbar-custom,
   footer {
-    background: #1E1E1E;
-    border-color: #333;
+    background: #D62828;      /* brand red */
+    border-color: #A61E1E;    /* darker red border for depth */
   }
+
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a,
-  footer a { color: #FAF3E0; }
+  footer a {
+    color: #FAF3E0;           /* warm white text on red */
+  }
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .navbar-brand:hover {
+    color: #FFFFFF;           /* bright white hover */
+  }
 
-  a { color: #38D0EA; }
-  a:hover, a:focus { color: #5ED9F1; }
+  /* Blog post titles */
+  .post-preview .post-title {
+    color: #FFFFFF !important;
+  }
 
+  /* Links */
+  a {
+    color: #D62828;           /* brand red accent */
+  }
+  a:hover, a:focus {
+    color: #FF4A4A;           /* lighter red for hover */
+  }
+
+  /* Blockquotes, meta text */
   blockquote { color: #CCC; }
+  .post-meta { color: #AAA; }
 
-  .post-preview,
-  .post-entry { color: #EAEAEA; }
+  /* Tables */
+  table tr { background-color: #1A1A1A; border-top-color: #333; }
+  table tr:nth-child(2n) { background-color: #222; }
+  table tr th, table tr td { border-color: #333; color: #FAF3E0; }
 
-  table tr { background-color: #1C1C1C; border-top-color: #333; }
-  table tr:nth-child(2n) { background-color: #232323; }
-  table tr th, table tr td { border-color: #333; }
-
+  /* Code blocks */
   pre.highlight, .highlight > pre, td.code pre {
     background: #1A1A1A;
-    background-image: none;
-    border-left-color: #666;
+    border-left-color: #D62828;  /* red accent */
   }
 }
