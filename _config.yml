@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Bytes of Learning
+title: Blog
 
 # Short description of your site
-description: My Blogs
+description: My Writings
 
 # --- Navigation bar options --- #
 
@@ -34,7 +34,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.png"
+avatar: "/img/avatar.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -45,11 +45,11 @@ avatar: "/img/avatar.png"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-navbar-col: "2f7d93"
+navbar-col: "38D0EA"
 # navbar-img: "/img/bgimage_h.jpg"
-footer-col: "2f7d93"
+footer-col: "38D0EA"
 # footer-img: "/img/bgimage_h.jpg"
-page-col: "e3b5a8"
+page-col: "FAF3E0"
 # page-img: "/img/bgimage.jpg"
 
 # --- Footer options --- #
