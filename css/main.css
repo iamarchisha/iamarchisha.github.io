@@ -754,4 +754,57 @@ td.gutter { padding-top: 3px; }
     color: #FFFFFF;
     text-shadow: 1px 1px 3px rgba(0,0,0,.8);
   }
+   /* --- Dark Mode: Article Readability Fix --- */
+/* Force main copy to a readable soft-white and ensure links/inline elements inherit properly */
+.post, .post-content, .post-body,
+.post-entry, .post-preview .post-entry,
+.post-preview, article, .post-entry-container {
+  color: #EDEDED !important;
+  background-color: transparent;
+}
+
+/* Paragraphs & list text inside posts */
+.post p, .post-content p, .post-entry p, article p,
+.post li, .post-content li, .post-entry li, article li,
+.post dt, .post dd, .post-content dt, .post-content dd {
+  color: #EDEDED !important;
+}
+
+/* Headings inside article body (keep them bright) */
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6,
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  color: #FFFFFF !important;
+}
+
+/* Links inside article body: brand red with lighter hover */
+.post a, .post-content a, .post-entry a, article a {
+  color: #D62828 !important;
+}
+.post a:hover, .post a:focus,
+.post-content a:hover, .post-content a:focus,
+.post-entry a:hover, .post-entry a:focus,
+article a:hover, article a:focus {
+  color: #FF4A4A !important;
+  text-decoration: underline;
+}
+
+/* Blockquotes and meta text inside posts */
+.post blockquote, .post-content blockquote, .post-entry blockquote {
+  color: #BFBFBF !important;
+  border-left-color: #6C757D !important;
+}
+
+/* Code blocks inside posts */
+.post pre, .post code,
+.post-content pre, .post-content code,
+.post-entry pre, .post-entry code {
+  color: #EDEDED !important;
+}
+
+/* Post titles in lists and single view */
+.post-preview .post-title,
+.post-heading .post-title,
+.post .post-title {
+  color: #FFFFFF !important;
+}
 }
