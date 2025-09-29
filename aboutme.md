@@ -3,15 +3,25 @@ layout: page
 title: About me
 subtitle:
 ---
+Well, someone's curious about ME!
 
-I'm Archisha, an accomplished data scientist hailing from the vibrant city of Mumbai, India. Just like the sun's rays that pierce through the clouds, my name "Archisha" embodies the essence of intensity and brilliance.
+TL;DR: Engineer, speaker, failed founder, mindful builder. Learning the business of impact, one imperfect iteration at a time.
 
-With an insatiable passion for computer vision and generative models, I embark on a quest to unravel the mysteries of data. Armed with a Bachelor's degree in Computer Engineering, I proudly earned my stripes in 2020, diving headfirst into a world of thrilling projects and transformative discoveries.
+Wanted to be an artist. Became an engineer. Built models. Then built a business. It failed. So I built myself.
 
-From conjuring synthetic data realms to optimizing product promotions, and even ensuring TV content compliance through the magic of Deep Learning, I've become a virtuoso of Git, Python, TensorFlow, PySpark, and AWS SageMaker.
+I was the kid who drew more than she spoke. Changed schools five times. Learned to adapt. Got good at swimming. My parents said: “Art is for the rich.” So I studied computer engineering.
 
-Fueling my fire is the artistry of designing flawless data science solution pipelines and pushing the boundaries of Deep Learning architectures. As a guiding light for aspiring data scientists, I embrace the role of a mentor, igniting minds and sharing knowledge that reverberates across generations.
+Then I met AI. It felt like art, just with code. I went all in. GitHub projects, open-source work, internships, research gigs. Eventually joined Fractal Analytics, building data science models that made real money move. But something was off.
 
-Beyond the realms of data, you'll find me immersed in the splendor of nature. Whether I'm diving into azure depths or ascending majestic peaks during thrilling hiking escapades, I draw inspiration from the boundless wonders that surround us.
+At 24, I quit to sell coconut oil.
 
-Envisioning a future amongst the elite ranks of Google Brain as a Researcher, I yearn to collaborate with brilliant minds and redefine the frontiers of Computer Vision.
+My family has farms. I had ambition. Cold-pressed, small-batch, clean-label. I built a brand, pitched stores, ran Instagram ads. And failed. Not because the product was bad, but because I knew nothing about distribution, margins, or what it takes to make people care. The market ate me alive.
+
+That failure became my MBA application.
+
+Now I’m at ESCP Business School - Paris to London. Strategy, marketing, finance. The full 360°. I’ve co-founded two ventures, led a Toastmasters club to gold, trained 80+ students in AI, and learned to stand in rooms and make people listen.
+
+I still draw. I still swim. But now I’m building again. Smarter.
+
+Let’s connect and grow together.
+
