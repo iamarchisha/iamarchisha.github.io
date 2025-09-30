@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   # Open Learning: "openlearning"
   Projects: "projects"
-  Open Learning: "open-learning/index"
+  Open Learning: "open-learning"
     - Machine Learning: "open-learning/machine-learning"
     - Marketing: "open-learning/marketing"
     - Startup: "open-learning/startup"
