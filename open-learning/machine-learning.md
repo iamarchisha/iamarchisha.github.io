@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Machine Learning
+layout: "post"
+title: "Machine Learning"
 permalink: /open-learning/machine-learning/
 date: "2023-01-21 14:16"
 excerpt: "An overview of freely available learning content on various topics (though mainly machine learning)."
