@@ -24,7 +24,6 @@ description: My Blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  # Open Learning: "openlearning"
   Projects: "projects"
   Open Learning: "open-learning"
     - Machine Learning: "open-learning/machine-learning"
