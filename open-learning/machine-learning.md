@@ -7,39 +7,51 @@ excerpt: "An overview of freely available learning content on various topics (th
 ---
 
 ## Interview Questions
+
 ### Everything - basic maths, ML, DL
 - [Questions on Linear Algebra, Numerical Optimization, Probability, Confidence Interval, Bias-Variance, Emperical Risk, VC Dimension, Model, Feature selection, Curse of Dimensionality, MLP, DL motivation, SVM, Bayesian, Regularization, ROC-AUC, Clustering, Dimensionality Reduction, Optimization, RNN, LSTM, Autoencoder, Representation Learning, Monte Carlo](https://medium.com/subhrajit-roy/cracking-the-machine-learning-interview-1d8c5bb752d8)
+
 ### Overview ML questions
 - [SQL, ML, Company related, General Knowledge ML ](https://www.springboard.com/blog/data-science/machine-learning-interview-questions/)
+
 ### ML
 - [Top 10 FAQ on ML](https://www.toptal.com/machine-learning/interview-questions)
+
 ### Python, Coding
 - [Python Coding, Time Complexity and Case Studies](https://www.glassdoor.ca/Interview/machine-learning-engineer-interview-questions-SRCH_KO0,25.htm)
+
 ### Preparation Guide
 - [How to answer questions on Machine Learning Basics, Machine Learning Coding, Applied Machine Learning Problems, Project-Based Machine Learning Questions
 ](https://towardsai.net/p/machine-learning/4-types-of-machine-learning-interview-questions-for-data-scientists-and-machine-learning-engineers-b8135805ce1b#567f)
+
 ### DL, Case Study
 - [CNN, NLP, LSTM, GANs, MLP, Case Study Questions](https://towardsdatascience.com/acing-machine-learning-interviews-aa73d6d7b07b)
+
 ### Resources
 - [Resource](https://github.com/MichelML/ml-engineer-interview)
 - [Resource](https://github.com/Sroy20/machine-learning-interview-questions)
 - [Resource](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)
 
 ## Topics to Study
+
 ### basic machine learning algorithms - summary
 - [Summary of supervised, semi-supervised, unsupervised and reinforcement](https://www.sas.com/en_gb/insights/articles/analytics/machine-learning-algorithms.html)
 - [All ML algorithms with basic explanation and code](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/)
 - [List of ML algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 - [Advantages/Disadvantages/Uses of ML algorithms](https://www.projectpro.io/article/common-machine-learning-algorithms-for-beginners/202#mcetoc_1g7709sni2r)
 - [ML algorithms outline](https://www.udemy.com/course/machine-learning-course-with-python/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_1000013_._pd__._&matchtype=&gclid=Cj0KCQjwwtWgBhDhARIsAEMcxeDjVwa-zN3eancm05dZq4dms5vG854eGxa1UetveSGAuS0dy6jZ4BcaAvUTEALw_wcB)
+
 ### cheat sheet
 - [Pyspark](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
+
 ### cheat sheet
 - [Probability](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
+
 ### cheat sheet
 - [Python, Pandas, Matplotlib, Scikit Learn](https://towardsdatascience.com/collecting-data-science-cheat-sheets-d2cdff092855)
 
 ## Machine Learning
+
 ### Statistics
 - [Type I and Type II error](https://medium.com/@kuldeepnpatel/false-positive-type-i-error-and-false-negative-type-ii-error-ee5167572ae1)
 - [Understanding AUC ROC](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
@@ -124,6 +136,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [CV code](https://www.analyticsvidhya.com/blog/2021/05/4-ways-to-evaluate-your-machine-learning-model-cross-validation-techniques-with-python-code/)
 
 ## Deep learning
+
 ### Book on DL
 - [NN and DL](http://neuralnetworksanddeeplearning.com/index.html)
 
@@ -208,6 +221,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 
 
 ## Programming
+
 ### Videos
 - [Introduction to DL with Python](https://www.youtube.com/watch?v=S75EdAcXHKk) - Presentation by Alec Radford giving an overview of Deep Learning with Theano
 
@@ -219,5 +233,6 @@ excerpt: "An overview of freely available learning content on various topics (th
 
 
 ## General Scientific stuff
+
 ### Videos
 - [How to write a Scientific Paper](https://www.youtube.com/watch?v=g3dkRsTqdDA) - Talk by Simon Peyton Jones
