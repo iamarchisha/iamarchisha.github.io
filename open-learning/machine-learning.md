@@ -43,6 +43,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 ### Statistics
 - [Type I and Type II error](https://medium.com/@kuldeepnpatel/false-positive-type-i-error-and-false-negative-type-ii-error-ee5167572ae1)
 - [Understanding AUC ROC](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+
 ### ML Algorithms
 - [Linear Regression](https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a)
 - [Polynomial regression](https://www.analyticsvidhya.com/blog/2021/10/understanding-polynomial-regression-model/)
@@ -65,6 +66,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [K-Means](https://towardsdatascience.com/k-means-clustering-introduction-to-machine-learning-algorithms-c96bf0d5d57a)
 - [How to choose k in k-means?](https://towardsdatascience.com/elbow-method-is-not-sufficient-to-find-best-k-in-k-means-clustering-fc820da0631d)
 - [[Video] kMeans](https://www.youtube.com/watch?v=4b5d3muPQmA&ab_channel=StatQuestwithJoshStarmer)
+
 ### Ensemble Algorithms
 - [Random Forest](https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest)
 - [[Video] Random Forest](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&ab_channel=StatQuestwithJoshStarmer)
@@ -84,6 +86,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [Gradient Boosting Machines (GBM)](nan)
 - [Gradient Boosted Regression Trees (GBRT)](nan)
 - [CatBoost](nan)
+
 ### Dimensionality Reduction Algorithms
 - [Principal Component Analysis (PCA)](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c)
 - [Principal Component Analysis (PCA) part 2](https://www.youtube.com/watch?v=FgakZw6K1QQ&ab_channel=StatQuestwithJoshStarmer)
@@ -91,6 +94,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [t-SNE](https://towardsdatascience.com/t-sne-machine-learning-algorithm-a-great-tool-for-dimensionality-reduction-in-python-ec01552f1a1e)
 - [[Video] t-SNE](https://www.youtube.com/watch?v=NEaUSP4YerM&ab_channel=StatQuestwithJoshStarmer)
 - [Linear Discriminant Analysis (LDA)](https://www.youtube.com/watch?v=azXCzI57Yfc&ab_channel=StatQuestwithJoshStarmer)
+
 ### Feature selection algorithms
 - [Summary: Filter - Information Gain, Chi Square, Fisher score, correlation coefficient, varience threshold, Mean Absolute Difference, dispersion ratio Wrapper - forward, backward, exhaustive feature selection, recursive elimination Embedded - L1, Random Forest Importance](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 - [chi square](https://stats.stackexchange.com/questions/24179/how-exactly-does-chi-square-feature-selection-work)
@@ -98,12 +102,15 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [information gain](https://towardsdatascience.com/decision-trees-explained-entropy-information-gain-gini-index-ccp-pruning-4d78070db36c#:~:text=In%20the%20context%20of%20Decision,only%20pass%20or%20only%20fail.)
 - [information gain part 2](https://machinelearningmastery.com/information-gain-and-mutual-information/)
 - [fisher score](https://stats.stackexchange.com/questions/277123/fisher-score-feature-selection-implementation)
+
 ### Optimizers
 - [general guide](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-deep-learning-optimizers/)
+
 ### Model Explainability
 - [SHAP explanation](https://www.youtube.com/watch?v=9haIOplEIGM&t=529s&ab_channel=DeepFindr)
 - [LIME](https://www.youtube.com/watch?v=d6j6bofhj2M&ab_channel=DeepFindr)
 - [SGD](https://www.youtube.com/watch?v=vMh0zPT0tLI&ab_channel=StatQuestwithJoshStarmer)
+
 ### Regularization
 - [Regularization theory](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
 - [Regularization theory part 2](https://www.analyticsvidhya.com/blog/2022/08/regularization-in-machine-learning/)
@@ -111,6 +118,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [[Video] Lasso vs Ridge](https://www.youtube.com/watch?v=Xm2C_gTAl8c&ab_channel=StatQuestwithJoshStarmer)
 - [[Video] Ridge](https://www.youtube.com/watch?v=Q81RR3yKn30&ab_channel=StatQuestwithJoshStarmer)
 - [[Video] Lasso](https://www.youtube.com/watch?v=NGf0voTMlcs&ab_channel=StatQuestwithJoshStarmer)
+
 ### Cross-Validation
 - [CV theory](https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f)
 - [CV code](https://www.analyticsvidhya.com/blog/2021/05/4-ways-to-evaluate-your-machine-learning-model-cross-validation-techniques-with-python-code/)
@@ -118,16 +126,20 @@ excerpt: "An overview of freely available learning content on various topics (th
 ## Deep learning
 ### Book on DL
 - [NN and DL](http://neuralnetworksanddeeplearning.com/index.html)
+
 ### GAN
 - [Monitor GAN Training Progress and Identify Common Failure Modes](https://www.mathworks.com/help/deeplearning/ug/monitor-gan-training-progress-and-identify-common-failure-modes.html)
 - [How to Identify and Diagnose GAN Failure Modes](https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/)
 - [Geometry Score](https://arxiv.org/pdf/1802.02664.pdf)
+
 ### Activation Functions
 - [Linear](https://datascience.stackexchange.com/questions/13696/lack-of-activation-function-in-output-layer-at-regression)
 - [When to use sigmoid, softmax, relu](https://stats.stackexchange.com/questions/218542/which-activation-function-for-output-layer)
 - [How to use activaion functions in hidden and output layer](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/)
+
 ### Object Detection
 - [Object Detection using ResNet-50](https://debuggercafe.com/object-detection-using-pytorch-faster-rcnn-resnet50-fpn-v2/)
+
 ### NLP
 - [NLP course Stanford](https://web.stanford.edu/~jurafsky/slp3/)
 - [[SO] Common questions on NLP implementation](https://stackoverflow.com/search?q=user:3907250+[nlp])
@@ -151,6 +163,7 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [handling rare words](https://medium.com/@xuy/handling-rare-words-in-machine-learning-models-89e472ce8519)
 - [basic NLP questions 1](https://intellipaat.com/blog/interview-question/nlp-interview-questions/)
 - [basic NLP questions 2](https://www.interviewbit.com/nlp-interview-questions/)
+
 ### RNN
 - [Forward pass, backward pass, gradients, loss, implementation](https://towardsdatascience.com/recurrent-neural-networks-rnns-3f06d7653a85)
 - [Forward pass explained](http://joshvarty.github.io/VisualizingRNNs/)
@@ -159,12 +172,15 @@ excerpt: "An overview of freely available learning content on various topics (th
 - [teacher forcing](https://towardsdatascience.com/what-is-teacher-forcing-3da6217fed1c)
 - [NN vanishing gradient](https://www.analyticsvidhya.com/blog/2021/06/the-challenge-of-vanishing-exploding-gradients-in-deep-neural-networks/)
 - [time series vanishing gradient](https://towardsdatascience.com/the-exploding-and-vanishing-gradients-problem-in-time-series-6b87d558d22)
+
 ### RetinaNet
 - [The intuition behind RetinaNet - Focal Loss](https://medium.com/@14prakash/the-intuition-behind-retinanet-eb636755607d)
 - [[Paper] Feature Pyramid Networks for Object detection](https://arxiv.org/abs/1612.03144)
 - [[Paper] Focal loss for Dense object detection](https://arxiv.org/pdf/1708.02002.pdf)
+
 ### ResNet
 - [Concept](https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8)
+
 ### Time Series
 - [Time Series with ML](https://towardsdatascience.com/time-series-forecasting-with-machine-learning-b3072a5b44ba)
 
@@ -192,7 +208,6 @@ excerpt: "An overview of freely available learning content on various topics (th
 
 
 ## Programming
-
 ### Videos
 - [Introduction to DL with Python](https://www.youtube.com/watch?v=S75EdAcXHKk) - Presentation by Alec Radford giving an overview of Deep Learning with Theano
 
@@ -204,6 +219,5 @@ excerpt: "An overview of freely available learning content on various topics (th
 
 
 ## General Scientific stuff
-
 ### Videos
 - [How to write a Scientific Paper](https://www.youtube.com/watch?v=g3dkRsTqdDA) - Talk by Simon Peyton Jones
