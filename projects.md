@@ -1,77 +1,50 @@
 ---
 layout: "post"
 title: "Projects"
-date: "2023-12-27 14:16"
+date: "2025-10-07 14:16"
 excerpt: "An overview of my awesomeness."
 ---
 
-## Work Experience
+# Timeline
 
-- **Data Science Consultant - AVPL International (2023 - Present)**  
-  *Led a team of 5 professionals to develop soil fertility identification using airborne hyperspectral images, proposed a hybrid machine learning model that improved accuracy by 21.09% and applied Agile methodology for project management and documentation.*
+I like to think of my journey as a thread of small decisions — sometimes strategic, sometimes accidental — all driven by curiosity to understand how ideas become real.
 
-- **Data Scientist - Fractal Analytics (2021 - 2022)**  
-  *Implemented GANs for synthetic data generation, overcoming data scarcity & complexity while maintaining inter-data and intra-feature relationship with a performance gap of only 6%. Conducted EDA, enhanced data processing pipeline, and ensured model stability.*
+## 2016–2020 | Mumbai
 
-- **AI Research Scientist - Tessact Pvt Ltd (2021)**
-  *Annotated media for TV content compliance, improved baseline model accuracy by 12%, and enhanced analytics platform with 6 new features. Leveraged ResNet50, AWS S3, and SageMaker.*
+I studied Computer Engineering at the University of Mumbai. It was less about becoming an engineer and more about learning how things work. Somewhere between data structures and probability, I found machine learning — an idea that data could mimic intuition fascinated me.  
 
-- **Machine Learning Engineer - Tvarit GmbH (2019-2020)**   
-  *Reduced manufacturing scrap through algorithm development and integration with AI platform. Led project on customer segmentation and price optimization, achieving first place in the competition by European Data Incubator(EDI). Utilized Grafana for business value dashboards.*
+During my undergrad, I worked with Tvarit GmbH in Frankfurt as a Machine Learning Engineer, developing predictive algorithms to reduce manufacturing scrap. A customer segmentation project we built went on to win the European Data Incubator competition. Later, I joined Tessact Pvt Ltd, a media-tech startup, where I improved compliance models using ResNet50 and AWS SageMaker.  
 
-## Volunteer Experience
+I also contributed to Mozilla’s open-source Project PRESC, helping design evaluation frameworks for ML models. Around that time, I began exploring AI research more deeply — attending the IEEE CVPR Conference in Nashville and the Deployable AI event at the Robert Bosch Center for Data Science and AI, IIT Madras. Those experiences shaped my understanding of how powerful and responsible AI can coexist.
 
-- **AI - Machine Learning Trainer - AVPL International (2022 - 2023)** 
-  *Acquired Trainer certification from a government flagship program - NSDC, instructing 80-student cohort and imparted knowledge of machine learning, teamwork, work management.*
+## 2021–2022 | Mumbai
 
-- **Club President - Toastmasters International (2022)**  
-  *Led the club to achieve the Distinguished title, won International Speech Contest at regional levels, and completed all 5 levels of Presentation Mastery pathway.*
+After graduating, I joined Fractal Analytics as a Data Scientist in the Banking and Retail division. My work revolved around building generative models for synthetic data creation, improving campaign analytics, and monitoring model drift. It was structured and analytical — but I started to notice what was missing.  
 
-- **Machine Learning Mentor - Upwork (2021)** 
-  *Mentored individuals for machine learning courses, guiding them in implementing projects such as multilayer perceptron construction and time-series forecasting using LSTM.*
+I wanted to understand the people behind the numbers — how they think, what drives them, and why we build the things we build.
 
-- **AI Mentor - GirlScript Foundation (2020)**  
-  *Mentored students on the machine learning project "Credit Card Fraud Detection" and delivered lectures on deep learning and neural networks algorithms.*
+## 2022–2023 | Mumbai
 
-- **Open-Source Contributor - Mozilla (2020)**
-  *Contributed to Project PRESC, conducting research, experimentation, and development of machine learning classification models evaluation toolkit.*
+That curiosity took me out of corporate life and into my own small venture — a cold-pressed coconut oil brand. I handled everything: product, pricing, packaging, marketing. It didn’t scale, but it taught me what no dataset could — how trust and storytelling shape consumer decisions.  
 
-## Other Projects
+Around the same time, I became a certified AI Trainer under the National Skill Development Corporation, teaching more than 80 students and mentoring early-stage learners through GirlScript Foundation and Upwork. Later, at AVPL International, I led a small team working on soil fertility detection using hyperspectral imagery — we improved prediction accuracy by 21%. It was the first time my technical skills felt truly connected to something tangible.
 
-- **Hackathons**  
-  - AIDL (Artificial Intelligence & Deep Learning) Unifynd: Solution for invoice and bill information extraction using semantic segmentation and text recognition techniques.
-  - HumAIn TCS: NLP project for building a taxonomy using data processing techniques and algorithm selection for the best result.
+## 2023–2024 | Paris
 
-- **Personal Projects**  
-  - Multistep Timeseries Prediction: Probabilistic forecasting of a wind generating system using LSTM models.
-  - Flask Projects: Speech-to-Text conversion using Google speech recognition API and License Plate Detection using OpenCV & Tesseract.
+I moved to Paris to join ESCP Business School for a Master in Management. I wanted to explore how strategy, innovation, and finance come together to move ideas forward.  
 
-## Additional Learning
-- Online Courses  
-  - TensorFlow in Practice (4 courses) - DeepLearning.AI
-  - Nanodegree Program: Intel® Edge AI for IoT Developers - Udacity
-  - Scalable Machine Learning on Big Data using Apache Spark - IBM
+At ESCP, I co-founded two ventures — *Ojas Brew*, an Ayurvedic wellness brand that reached the Top 10 at the Open Blue Venture Challenge, and *Sleep Hive*, a project focused on improving sleep health through wearable technology. These experiences pushed me to see creativity and strategy as two sides of the same process — one fuels the other.
 
-- Conferences  
-  - Computer Vision and Pattern Recognition (CVPR), Nashville, 2021
-  - Deployable AI, Robert Bosch Center for Data Science and Artificial Intelligence, IIT Madras, 2021
+## 2024–2025 | Paris
 
-- Papers  
-  - "AI Game BOT" - International Journal for Science and Advance Research In Technology, 6(5)
-  - "Sales Prediction System using Machine Learning" - International Journal of Scientific Research and Engineering Development
+While studying, I joined the FDI Control Forum as a Business Development Intern, helping manage relationships with 300+ stakeholders for a global M&A event. It taught me how structure and communication drive trust.  
 
-## Skills
+Later, I joined Prelude, a CPaaS technology company, as a Marketing Intern. I helped rebuild its digital presence, created new brand assets, and launched its first video storytelling campaign. Our engagement grew significantly — but what I valued most was realizing that marketing is, in many ways, psychology in motion.  
 
-- Programming: Python, Spark, Git, Docker, TensorFlow, Keras, Scikit-Learn, AWS SageMaker, Pandas
-- Administrative: Management and planning, Communication, Public speaking
-- Hobbies: Fine arts, Graphic designing, Reading fiction novels, Baking
+## 2025–Present | London
 
-## Academia
+I’m now finishing my final year at ESCP’s London campus while continuing my work with Prelude. Outside of work, I lead a Toastmasters International club as President, where I’ve delivered more than 20 speeches and led the club to Distinguished status.  
 
-- B.E. in Computer Engineering (GPA: 7.96/10.0)  
-  University of Mumbai—Bharati Vidyapeeth College of Engineering  
-  *Focused on Data Structures & Algorithms, AI/ML Applications, and Engineering Mathematics.*
+A few years ago, I published two research papers — *AI Game BOT* and *Sales Prediction System using Machine Learning* — exploring how machine intelligence can better adapt to human reasoning.  
 
-- Data Science Masters Program  
-  GreyAtom  
-  *Coursework in ML concepts, Industrial Application of AI, Deep Learning, NLP, and a Final Capstone Project.*
+Looking back, my path has always been about understanding — people, products, and the spaces where they meet. From data science to design, from startups to strategy, it all comes back to one thing: learning how to connect meaning with purpose.
