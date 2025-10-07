@@ -1,12 +1,9 @@
 ---
 layout: "post"
-title: "Projects"
+title: "Timeline"
 date: "2025-10-07 14:16"
 excerpt: "An overview of my awesomeness."
 ---
-
-# Timeline
-
 I like to think of my journey as a thread of small decisions — sometimes strategic, sometimes accidental — all driven by curiosity to understand how ideas become real.
 
 ## 2016–2020 | Mumbai
